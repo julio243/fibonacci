@@ -1,10 +1,11 @@
+from datetime import date,datetime
 def fib(n):
     """Print a Fibonacci series up to n."""
     a, b = 0, 1
     while a < n:
         print(a, end=' ')        
         a, b = b, a+b
-    print("fib1")
+    print(datetime.now())
     
 def fib2(n):
     """Print a Fibonacci series up to n."""
@@ -12,4 +13,4 @@ def fib2(n):
     while a < n:
         print(a, end=' ')        
         a, b = b, a+b
-    print("fib2")
+    print(date.today())
